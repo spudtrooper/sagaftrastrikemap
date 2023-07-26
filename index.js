@@ -7,11 +7,12 @@ function parseAddresses(html) {
   const res = [];
     $('.wixui-accordion__item').each((i, el) => {
     const name = $(el).find('.wixui-accordion__title').text().trim();
-    if (!name || name === 'STRIKE SUPPORT EVENT SCHEDULE')      return ;
+    if (!name || name === 'STRIKE SUPPORT EVENT SCHEDULE') return;
     const text = $(el).text();
     // 888 Broadway, New York, NY 10003
+    // 30 Rockefeller Plaza, 49th Street between 5th & 6th Avenues
     const m = text.match(/\D(\d+\s.*\d{5})\b/);
-    const addr = (m && m[1]) || '';
+    const addr = (m && m[1]) || text.split('\n')[0];
     if (!addr || addr === 'TBD') return;
     const o = { name, addr };
     res.push(o);
