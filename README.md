@@ -13,8 +13,3 @@ To create it:
 1. Follow [these instructions](https://colettebecker.medium.com/how-to-import-a-bunch-of-addresses-on-to-google-maps-all-at-once-ad8212b87f2d) to import the CSV into a map.
 
 ![Example](./doc/nyc.png)
-
-
-## Map
-
-<iframe src="https://www.google.com/maps/d/embed?mid=1wyqQiFfwRoIQOT_bw_XfoXgp5nCEW-I&ehbc=2E312F" width="640" height="480"></iframe>
