@@ -1,0 +1,22 @@
+{
+  "name": "sagaftrastrikemap",
+  "version": "1.0.0",
+  "description": "Maps strike locations",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "run": "node index.js",
+    "csv": "node index.js > locs.csv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/spudtrooper/sagaftrastrikemap"
+  },
+  "author": "Jeff Palm",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "csv-stringify": "^6.4.0",
+    "node-fetch": "^3.3.2"
+  }
+}
