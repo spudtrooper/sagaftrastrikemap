@@ -8,10 +8,7 @@
     "run": "node index.js",
     "csv": "node index.js > locs.csv"
   },
-  "repository": {
-    "type": "git",
-    "url": "github.com/spudtrooper/sagaftrastrikemap"
-  },
+  "repository": "github.com/spudtrooper/sagaftrastrikemap",
   "author": "Jeff Palm",
   "license": "ISC",
   "dependencies": {
