@@ -6,7 +6,9 @@ To create it:
 
 1. Creates `locs.csv` with
   
-    yarn run csv
+  ```bash
+  yarn run csv
+  ```
 
 2. Follow [these instructions](https://colettebecker.medium.com/how-to-import-a-bunch-of-addresses-on-to-google-maps-all-at-once-ad8212b87f2d) to import the CSV into a map.
 
